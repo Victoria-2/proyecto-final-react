@@ -1,0 +1,39 @@
+.usuarios-container {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.usuarios-error {
+  color: #ff6b6b;
+  margin-bottom: 10px;
+}
+
+.usuarios-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.usuarios-table thead tr {
+  background-color: #2c3e50;
+  border-bottom: 2px solid #444;
+}
+
+.usuarios-table th {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.usuarios-table tbody tr {
+  border-bottom: 1px solid #444;
+  text-align: center;
+}
+
+.usuarios-table td {
+  padding: 10px;
+}
+
+.usuarios-table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}

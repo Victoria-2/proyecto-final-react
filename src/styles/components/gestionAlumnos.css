@@ -1,0 +1,116 @@
+/* Container Principal del CRUD */
+.gestion-container {
+  padding: 22px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+/* Alertas de error */
+.error-mensaje {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* Formulario */
+.gestion-form {
+  margin-bottom: 20px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+/* Contenedor de inputs en formato Grid de dos columnas */
+.form-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Estilos básicos para inputs */
+.form-grid input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-grid input:disabled {
+  background-color: #f2f2f2;
+  cursor: not-allowed;
+}
+
+/* Botones del formulario */
+.btn-submit {
+  margin-top: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.btn-submit.registrar {
+  background-color: #2ecc71;
+}
+
+.btn-submit.editar {
+  background-color: #e5a93b;
+}
+
+.btn-cancelar {
+  margin-left: 12px;
+  padding: 8px 16px;
+  background-color: #95a5a6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Tabla de Alumnos */
+.tabla-alumnos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.tabla-alumnos th,
+.tabla-alumnos td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.tabla-alumnos th {
+  background-color: #f2f2f2;
+}
+
+.tabla-alumnos tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.tabla-no-data {
+  text-align: center;
+  color: #7f8c8d;
+}
+
+/* Botones de acción en las filas */
+.btn-accion {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-size: 13px;
+}
+
+.btn-editar {
+  background-color: #3498db;
+  margin-right: 6px;
+}
+
+.btn-eliminar {
+  background-color: #e74c3c;
+}

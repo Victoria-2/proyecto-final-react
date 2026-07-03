@@ -1,0 +1,48 @@
+.perfil-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.perfil-title {
+  text-align: center;
+}
+
+.perfil-divider {
+  border-color: #444;
+}
+
+.perfil-error {
+  padding: 20px;
+  color: #ff6b6b;
+}
+
+.perfil-error a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.perfil-loading {
+  padding: 20px;
+}
+
+.perfil-actions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-logout {
+  padding: 8px 16px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-logout:hover {
+  background-color: #c0392b;
+}
