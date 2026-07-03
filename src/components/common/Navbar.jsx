@@ -26,6 +26,9 @@ export const Navbar = () => {
         <li>
           <a href="/notas">Notas</a>
         </li>
+        <li>
+          <a href="/usuarios">Usuarios registrados</a>
+        </li>
       </ul>
 
       <div className="navbar-auth">
